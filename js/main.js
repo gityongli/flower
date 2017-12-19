@@ -28,6 +28,14 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 });
 galleryTop.controller.control = galleryThumbs;
 galleryThumbs.controller.control = galleryTop;
+
+
+
+
+
+
+
+
 /*音乐处理开始*/
 var music=document.getElementById("music");
 var musicbg=document.querySelectorAll(".musicbg")[0];
