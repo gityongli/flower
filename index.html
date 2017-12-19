@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Swiper demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=7YXyHaySEOhveeWFWlGC89r0lsMc6fyc"></script>
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
@@ -18,28 +19,27 @@
       <div class="swiper-slide one">
         <div class="top">
           <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s">曾在我背包小小夹层里的那个人</p>
-          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">陪伴我漂洋过海经过每一段旅程</p>
-          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s">隐形的稻草人守护我的天真</p>
-          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s">曾以为爱情能让未来只为一个人</p>
-          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3s">关了灯依旧在书桌角落的那个人</p>
+          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s">陪伴我漂洋过海经过每一段旅程</p>
+          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3s">隐形的稻草人守护我的天真</p>
+          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="4s">曾以为爱情能让未来只为一个人</p>
+          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="5s">关了灯依旧在书桌角落的那个人</p>
         </div>
         <div class="center">
-          <img src="img/1.jpeg" alt="" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1.5s">
+          <div style="width:80%;height:60%;border:#ccc solid 2px;font-size:12px" id="map" class="map ani"
+               swiper-animate-effect="zoomIn" swiper-animate-duration="4s" swiper-animate-delay="3s"></div>
         </div>
-        <div class="bottom"></div>
       </div>
       <div class="swiper-slide two">
         <div class="top">
           <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s">变成我许多年来纪念爱情的标本</p>
-          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">消失的那个人回不去的青春</p>
-          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s">忘不了爱过的人才会对过往认真</p>
-          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s">只愿得一人心白首不分离</p>
-          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3s">这简单的话语需要巨大的勇气</p>
+          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s">消失的那个人回不去的青春</p>
+          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3s">忘不了爱过的人才会对过往认真</p>
+          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="4s">只愿得一人心白首不分离</p>
+          <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="5s">这简单的话语需要巨大的勇气</p>
         </div>
         <div class="center">
-          <img src="img/2%20(2).jpg" alt="" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1.5s">
+          <img src="img/2%20(2).jpg" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="4s" swiper-animate-delay="3s">
         </div>
-        <div class="bottom"></div>
       </div>
       <div class="swiper-slide three">
         <div class="top">
@@ -93,7 +93,7 @@
         </div>
         <div class="bottom"></div>
       </div>
-     <!-- <div class="swiper-slide seven">
+      <div class="swiper-slide serve">
         <div class="top">
           <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s">这清晰的话语嘲笑孤单的自己</p>
           <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">盼望能见到你却一直骗自己</p>
@@ -105,7 +105,7 @@
           <img src="img/7%20(2).jpg" alt="" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1.5s">
         </div>
         <div class="bottom"></div>
-      </div>-->
+      </div>
       <div class="swiper-slide eight">
         <div class="top">
           <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s">没想过失去你　却是在骗自己</p>
